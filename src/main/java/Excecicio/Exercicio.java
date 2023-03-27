@@ -35,6 +35,7 @@ public class Exercicio {
             novo.maior= aux.menor;
             novo.ant= aux;
             aux.prox= novo;
+          
         }
         return inicio;
     }
@@ -50,7 +51,8 @@ public class Exercicio {
         System.out.println("Mdc: "+aux.menor);
     }     
     public static void main(String []args){
-        mdcEclidiano(17154,357);
+        No n = mdcEclidiano(17154,357);
+        //gambiarra
         imprime();
     }
 }
